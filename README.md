@@ -21,6 +21,7 @@
 
 ## Results<a name="results"></a>
 ![dog_app.html]
+<iframe width="100%" height="475" src="dog_app.html" frameborder="0"></iframe>
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
