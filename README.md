@@ -23,7 +23,7 @@
 
 ## Project Motivation
 This application uses a CNN to predict dog breeds from images. 
-A comprehensive overview of and description of the project motivations, as well as the algorithms and work that went into creating the CNN are present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
+A comprehensive overview and description of the project motivations, as well as the algorithms and work that went into creating the CNN, are all present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
 
 
 
