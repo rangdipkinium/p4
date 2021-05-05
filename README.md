@@ -3,8 +3,8 @@
 
 # Table of Contents
 0. [IMPORTANT](#important)
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
+1. [Project Motivation](#motivation)
+2. [Installation](#installation)
 3. [File Descriptions](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
@@ -36,6 +36,19 @@ tensorflow==2.4.1
 dash_html_components==1.1.3
 Pillow==8.2.0
 ```
+## File Descriptions <a name="files"></a>
+
+`dog_app.ipynb : This file contains all of the work to build the model used in the app`
+`dog_app.html : This is a copy of dog_app.ipynb`
+`dog_app.pdf : This is a copy of dog_app.ipynb`
+`app_heroku : This folder contains all of the files needed to deploy the app to heroku, or to run the app locally`
+        - `saved_models: This folder contains all of the saved CNN model weights`
+        - `app.py : This is the main app file`
+        - `dog_code.py : This file reads in images in the app and applies the model to them`
+
+
+
+
 
 #### Run:
 ##### To view the app in Heroku: https://dogdash.herokuapp.com
