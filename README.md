@@ -13,11 +13,13 @@
 ##### To view the app in Heroku: https://dogdash.herokuapp.com
 
 ##### To run the app locally, follow these steps:
-1. `pip install --user virtualenv`
-2. `virtualenv env`
-3. `source venv/bin/activate`
-4. `pip install -r requirements.txt`
-5. `python app.py`
+
+1. `cd app_heroku`
+2. `pip install --user virtualenv`
+3. `virtualenv env`
+4. `source venv/bin/activate`
+5. `pip install -r requirements.txt`
+6. `python app.py`
 
 
 
@@ -31,3 +33,4 @@ A comprehensive overview and description of the project motivations, as well as 
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+Transfer learning models such as InceptionV3, VGG16, and VGG19 were used. Acknowledgement goes to Udacity for the jupyter notebook template
