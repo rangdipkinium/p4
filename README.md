@@ -12,7 +12,12 @@
 #### Run:
 To view the app in Heroku: https://dogdash.herokuapp.com
 
-
+To run the app locally follow these steps:
+1. `pip install --user virtualenv`
+2. `virtualenv env`
+3. `source venv/bin/activate`
+4. `pip install -r requirements.txt`
+5. `python app.py`
 
 ## Results<a name="results"></a>
 
