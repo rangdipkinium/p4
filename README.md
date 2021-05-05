@@ -25,4 +25,8 @@
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-[Plotly](https://plotly.com/chart-studio-help/json-chart-schema/) documentation code was used for the pie chart on the home page. Other parts of code are from Udacity.
+[Plotly](https://plotly.com/chart-studio-help/json-chart-schema/) documentation code was used for the pie chart on the home page. Other parts of code are from <object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
+<embed src="dog_app.html">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
