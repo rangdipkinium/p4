@@ -2,30 +2,25 @@
 
 
 # Table of Contents
-0. [IMPORTANT](#important)
-1. [Project Overview](#motivation)
-2. [Problem Statement](#problem)
-3. [metrics](#metrics)
-4. [Installation](#installation)
-5. [File Descriptions](#files)
-6. [Results](#results)
-7. [Licensing, Authors, and Acknowledgements](#licensing)
 
-## IMPORTANT <a name="important"></a>
-All of the details regarding the work for this project are present in this repository's Jupyter notebook. 
-
+0. [Project Overview](#motivation)
+1. [Problem Statement](#problem)
+2. [metrics](#metrics)
+3. [Installation](#installation)
+4. [File Descriptions](#files)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
 
 ## Project Overview <a name="motivation"></a>
-When humans look at images, we take for granted that our brain can process the image and decide what the image contains fairly quickly. The goal of of our CNN and CNNs in general (at least for image recognition and classification) is to replicate this process algorithmically and to teach our computer how to do this. With this 
-The goal of this project was to define and train a Convolutional Neural Network (CNN) that could predict dog breeds from images of dogs. 
-The project motivation and problem statement are (from Udacity): The final CNN used in the app was built using transfer learning from Google's InceptionV3 CNN, with additional training on dog-specific images provided by udacity.  
+When humans look at images, we take for granted that our brain can process the image and decide what the image contains fairly quickly. The goal of my CNN and CNNs in general (at least for image recognition and classification) is to replicate this process algorithmically and to teach our computer how to do this. With this in mind, the aim of this project was to define and train a Convolutional Neural Network (CNN) that could predict dog breeds from images of dogs. 
+The final CNN used in the app was built using transfer learning from Google's InceptionV3 CNN, with additional training on dog-specific images provided by udacity.  
 
 
 ## Problem Statement<a name="problem"></a>
-Using our CNN, our goal is to be able to predict dog breeds from images of dogs. 
-
+Using images provided by udacity, my main objective was to create and train a CNN that could predict dog breeds from images of dogs. 
+The image dataset used to train, validate, and test my CNN consisted of 8351 different dog images, with 133 different dog breeds given as labels. This data was provided by Udacity. The images were also passed through Google's InceptionV3 model before being passed into my CNN's layers. 
 
 ## Metrics <a name="metrics"></a>
 
