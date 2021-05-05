@@ -6,7 +6,7 @@
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-### Installation and Run <a name="installation"></a>
+## Installation and Run <a name="installation"></a>
 
 
 #### Run:
@@ -19,9 +19,15 @@
 4. `pip install -r requirements.txt`
 5. `python app.py`
 
+
+
+## Project Motivation
+This application uses a CNN to predict dog breeds from images. 
+A comprehensive overview of and description of the project motivations, as well as the algorithms and work that went into creating the CNN are present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
+
+
+
 ## Results<a name="results"></a>
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-[Plotly](https://plotly.com/chart-studio-help/json-chart-schema/) documentation code was used for the pie chart on the home page. Other parts of code are from 
-![filepdf](https://rangdipkinium.github.io/project_4_capstone_dog_breed_classifier/dog_app.pdf)
