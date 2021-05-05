@@ -68,10 +68,6 @@ Epoch 20/20
 
 
 
-When using the app, keep the image size below 1MB for optimum performance!
-
-
-
 ## Installation and Run <a name="installation"></a>
 The app uses the following non-standard packages: To see a list of all of the packages required to run the app, please look at the requirements.txt file in `app_heroku`. 
 
