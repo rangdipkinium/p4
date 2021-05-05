@@ -58,6 +58,15 @@ Epoch 20/20
 
 ```
 
+#### Model Test Accuracy
+`Test accuracy: 82.6555%`
+
+
+#### Training Accuracy/Loss Curves
+![file](plots.png)
+
+
+
 
 When using the app, keep the image size below 1MB for optimum performance!
 
