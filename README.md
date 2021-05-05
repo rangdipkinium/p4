@@ -20,6 +20,8 @@
 5. `python app.py`
 
 ## Results<a name="results"></a>
+<img src="dog_app.html"/>
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 [Plotly](https://plotly.com/chart-studio-help/json-chart-schema/) documentation code was used for the pie chart on the home page. Other parts of code are from Udacity.
