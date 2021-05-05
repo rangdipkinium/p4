@@ -1,10 +1,16 @@
-# Table of Contents
 
+
+
+# Table of Contents
+0. [IMPORTANT](#important)
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## IMPORTANT <a name="important"></a>
+All of the details regarding the work for this project are present in the Jupyter notebook. 
 
 ## Installation and Run <a name="installation"></a>
 
