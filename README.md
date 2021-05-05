@@ -10,7 +10,19 @@
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## IMPORTANT <a name="important"></a>
-All of the details regarding the work for this project are present in the Jupyter notebook. 
+All of the details regarding the work for this project are present in this repository's Jupyter notebook. 
+
+
+
+
+## Project Motivation <a name="motivation"></a>
+
+This application uses a CNN to predict dog breeds from images. 
+A comprehensive overview and description of the project motivations, as well as the algorithms and work that went into creating the CNN, are all present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
+
+When using the app, keep the image size below 1MB for optimum performance!
+
+
 
 ## Installation and Run <a name="installation"></a>
 
@@ -29,14 +41,9 @@ All of the details regarding the work for this project are present in the Jupyte
 
 
 
-## Project Motivation
-This application uses a CNN to predict dog breeds from images. 
-A comprehensive overview and description of the project motivations, as well as the algorithms and work that went into creating the CNN, are all present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
-
-
 
 ## Results<a name="results"></a>
-![file](dog_app.html)
+![file](dog_app.png)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Transfer learning models such as InceptionV3, VGG16, and VGG19 were used. Acknowledgement goes to Udacity for the jupyter notebook template
