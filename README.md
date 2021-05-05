@@ -20,7 +20,7 @@
 5. `python app.py`
 
 ## Results<a name="results"></a>
-<img src="dog_app.ipynb"/>
+<img src="dog_app.html"/>
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
