@@ -46,11 +46,11 @@ Pillow==8.2.0
 
 `app_heroku : This folder contains all of the files needed to deploy the app to heroku, or to run the app locally`
 
-        - `saved_models: This folder contains all of the saved CNN model weights`
+        - `saved_models` : This folder contains all of the saved CNN model weights
         
-        - `app.py : This is the main app file`
+        - `app.py` : This is the main app file
         
-        - `dog_code.py : This file reads in images in the app and applies the model to them`
+        - `dog_code.py` : This file reads in images in the app and applies the model to them
 
 
 
