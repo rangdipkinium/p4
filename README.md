@@ -17,7 +17,7 @@ All of the details regarding the work for this project are present in this repos
 
 ## Project Motivation <a name="motivation"></a>
 
-This application uses a CNN to predict dog breeds from images. 
+This application uses a CNN to predict dog breeds from images. The CNN is built by transfer learning, with the base layers from Google's InceptionV3 CNN.  
 A comprehensive overview and description of the project motivations, as well as the algorithms and work that went into creating the CNN, are all present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
 
 When using the app, keep the image size below 1MB for optimum performance!
