@@ -12,7 +12,7 @@
 
 
 #### Run:
-To view the app in Heroku: [dogdash.herokuapp.com]
+To view the app in Heroku: https://dogdash.herokuapp.com
 
 
 
