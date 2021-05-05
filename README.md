@@ -36,7 +36,7 @@ A comprehensive overview and description of the project motivations, as well as 
 
 
 ## Results<a name="results"></a>
-![file](dog_app.pdf)
+![file](dog_app.html)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Transfer learning models such as InceptionV3, VGG16, and VGG19 were used. Acknowledgement goes to Udacity for the jupyter notebook template
