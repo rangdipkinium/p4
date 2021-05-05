@@ -24,4 +24,4 @@
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 [Plotly](https://plotly.com/chart-studio-help/json-chart-schema/) documentation code was used for the pie chart on the home page. Other parts of code are from 
-![](https://nbviewer.jupyter.org/github/rangdipkinium/project_4_capstone_dog_breed_classifier/blob/main/dog_app.pdf)
+![filepdf](https://rangdipkinium.github.io/project_4_capstone_dog_breed_classifier/dog_app.pdf)
