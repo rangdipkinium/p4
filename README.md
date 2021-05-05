@@ -3,7 +3,7 @@
 
 # Table of Contents
 0. [IMPORTANT](#important)
-1. [Project Motivation](#motivation)
+1. [Project Overview](#motivation)
 2. [Installation](#installation)
 3. [File Descriptions](#files)
 4. [Results](#results)
@@ -15,10 +15,17 @@ All of the details regarding the work for this project are present in this repos
 
 
 
-## Project Motivation <a name="motivation"></a>
+## Project Overview <a name="motivation"></a>
 
-This application uses a CNN to predict dog breeds from images. The CNN is built by transfer learning, with the base layers from Google's InceptionV3 CNN.  
-A comprehensive overview and description of the project motivations, as well as the algorithms and work that went into creating the CNN, are all present in this repository's jupyter notebook/pdf files. In them, I go into a detailed analysis and walkthrough of the build process for the CNN from quantitative and qualitative perspectives. 
+The goal of this project was to define and train a Convolutional Neural Network (CNN) that could predict dog breeds from images of dogs. 
+The project motivation and problem statement are (from Udacity):
+```
+Why We're Here
+You will make the first steps towards developing an algorithm that could be used as part of a mobile or web app. At the end of this project, your code will accept any user-supplied image as input. If a dog is detected in the image, it will provide an estimate of the dog's breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling. The image below displays potential sample output of your finished project (... but we expect that each student's algorithm will behave differently!).
+```
+
+
+
 
 When using the app, keep the image size below 1MB for optimum performance!
 
@@ -67,6 +74,11 @@ Pillow==8.2.0
 4. `source venv/bin/activate`
 5. `pip install -r requirements.txt`
 6. `python app.py`
+
+
+
+When using the app, keep the image size below 1MB for optimum performance!
+
 
 
 
