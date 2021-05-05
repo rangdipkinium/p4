@@ -4,10 +4,12 @@
 # Table of Contents
 0. [IMPORTANT](#important)
 1. [Project Overview](#motivation)
-2. [Installation](#installation)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+2. [Problem Statement](#problem)
+3. [metrics](#metrics)
+4. [Installation](#installation)
+5. [File Descriptions](#files)
+6. [Results](#results)
+7. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## IMPORTANT <a name="important"></a>
 All of the details regarding the work for this project are present in this repository's Jupyter notebook. 
@@ -16,14 +18,16 @@ All of the details regarding the work for this project are present in this repos
 
 
 ## Project Overview <a name="motivation"></a>
-
+When humans look at images, we take for granted that our brain can process the image and decide what the image contains fairly quickly. The goal of of our CNN and CNNs in general (at least for image recognition and classification) is to replicate this process algorithmically and to teach our computer how to do this. With this 
 The goal of this project was to define and train a Convolutional Neural Network (CNN) that could predict dog breeds from images of dogs. 
-The project motivation and problem statement are (from Udacity):
-```
-Why We're Here
-You will make the first steps towards developing an algorithm that could be used as part of a mobile or web app. At the end of this project, your code will accept any user-supplied image as input. If a dog is detected in the image, it will provide an estimate of the dog's breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling. The image below displays potential sample output of your finished project (... but we expect that each student's algorithm will behave differently!).
-```
+The project motivation and problem statement are (from Udacity): The final CNN used in the app was built using transfer learning from Google's InceptionV3 CNN, with additional training on dog-specific images provided by udacity.  
 
+
+## Problem Statement<a name="problem"></a>
+Using our CNN, our goal is to be able to predict dog breeds from images of dogs. 
+
+
+## Metrics <a name="metrics"></a>
 
 
 
