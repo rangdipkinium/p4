@@ -124,4 +124,4 @@ When using the app, keep the image size below 1MB for optimum performance!
 ![file](dog_app.png)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-Transfer learning models such as [InceptionV3](https://arxiv.org/abs/1512.00567), [VGG16](https://arxiv.org/abs/1409.1556), and VGG19 were used. Acknowledgement goes to Udacity for the jupyter notebook template
+Transfer learning models such as [InceptionV3](https://arxiv.org/abs/1512.00567), [VGG16](https://arxiv.org/abs/1409.1556), and [VGG19](https://arxiv.org/abs/1409.1556) were used. Acknowledgement goes to Udacity for the jupyter notebook template
