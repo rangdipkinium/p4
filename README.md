@@ -48,11 +48,15 @@ test dog images: 836
 
 ```
 
-An important exploratory analysis of training data, is analyzing the distribution of labels for our training data. For example, if all of our train/validation images were of one dog breed, then our model wouldn't perform well on images of different dog breeds. 
+An important exploratory analysis of the training data should include analyzing the distribution of labels for our training data. For example, if all of our train/validation images were of one dog breed, then our model wouldn't perform well on images of different dog breeds. 
 
 
-Here is the distribution of labels of the 6680 training images. 
+Here is the distribution of labels of the 6680 training and 835 validation images. 
+We can see that most of the label counts for each dataset are close to the median, with very few outliers:
+![file](dist.png)
 
+
+![file](dist2.png)
 
 
 
@@ -63,7 +67,8 @@ Here is the distribution of labels of the 6680 training images.
 
 
 ## Metrics <a name="metrics"></a>
-
+Accuracy was used as the final metric to gauge model performance because the representation of various dog breeds in the validation set 
+Below are are other training data metrics found during training.  
 #### CNN Architecture
 ![file](cnn.png)
 ```
