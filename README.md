@@ -59,10 +59,10 @@ Here is the distribution of labels of the 6680 training and 835 validation image
 We can see that most of the label counts for each dataset are close to the median, with very few outliers (the interquartile ranges are small compared to the mean:
 
 
-![file](dist.png)
+![file](train.png)
 
 
-![file](dist2.png)
+![file](valid.png)
 
 
 
