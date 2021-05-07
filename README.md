@@ -30,10 +30,10 @@ The image dataset used to train, validate, and test my CNN consisted of 8351 dif
 The train/validation/test data used to refine my CNN consisted of 224 x 224 pixel jpg images of dogs (here's what some of them look like) 
 
 
-![file](t0.png)
+![file](t0.jpeg)
 
 
-![file](t1.png)
+![file](t1.jpeg)
 
 
 The images were then transformed by keras from 224X224 pixels into 4-D tensors, where the three color channels (RGB)
