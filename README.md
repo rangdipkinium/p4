@@ -13,7 +13,7 @@
 7. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
-# Please look at Jupyter notebook in this repo if you have any unanswered questions. 
+##### Please look at Jupyter notebook in this repo if you have any unanswered questions. 
 
 
 ## Project Overview <a name="motivation"></a>
@@ -48,8 +48,10 @@ test dog images: 836
 
 ```
 
+An important exploratory analysis of training data, is analyzing the distribution of labels for our training data. For example, if all of our train/validation images were of one dog breed, then our model wouldn't perform well on images of different dog breeds. 
 
 
+Here is the distribution of labels of the 6680 training images. 
 
 
 
