@@ -5,12 +5,15 @@
 
 0. [Project Overview](#motivation)
 1. [Problem Statement](#problem)
-2. [metrics](#metrics)
-3. [Installation](#installation)
-4. [File Descriptions](#files)
-5. [Results](#results)
-6. [Licensing, Authors, and Acknowledgements](#licensing)
+2. [Data Exploration & Visualization](#data)
+3. [Metrics](#metrics)
+4. [Installation](#installation)
+5. [File Descriptions](#files)
+6. [Results](#results)
+7. [Licensing, Authors, and Acknowledgements](#licensing)
 
+
+# Please look at Jupyter notebook in this repo if you have any unanswered questions. 
 
 
 ## Project Overview <a name="motivation"></a>
@@ -21,6 +24,41 @@ The final CNN used in the app was built using transfer learning from Google's In
 ## Problem Statement<a name="problem"></a>
 Using images provided by udacity, my main objective was to create and train a CNN that could predict dog breeds from images of dogs. 
 The image dataset used to train, validate, and test my CNN consisted of 8351 different dog images, with 133 different dog breeds given as labels. This data was provided by Udacity. The images were also passed through Google's InceptionV3 model before being passed into my CNN's layers. 
+
+
+## Data Exploration & Visualization <a name="data"/>
+The train/validation/test data used to refine my CNN consisted of 224 x 224 pixel jpg images of dogs (here's what some of them look like) 
+![file](t0.png)
+![file](t1.png)
+
+
+The images were then transformed by keras from 224X224 pixels into 4-D tensors, where the three color channels (RGB)
+are represented (each tensor was sized (1,224,224,3). The quantity of our input data and the train/validation/test splits are shown below:
+The target dog label count is also given. 
+
+
+```
+total dog categories: 133
+
+
+total dog images: 8351 
+training dog images: 6680 
+validation dog images: 835 
+test dog images: 836 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Metrics <a name="metrics"></a>
 
