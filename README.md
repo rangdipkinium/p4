@@ -28,7 +28,11 @@ The image dataset used to train, validate, and test my CNN consisted of 8351 dif
 
 ## Data Exploration & Visualization <a name="data"/>
 The train/validation/test data used to refine my CNN consisted of 224 x 224 pixel jpg images of dogs (here's what some of them look like) 
+
+
 ![file](t0.png)
+
+
 ![file](t1.png)
 
 
@@ -52,7 +56,9 @@ An important exploratory analysis of the training data should include analyzing 
 
 
 Here is the distribution of labels of the 6680 training and 835 validation images. 
-We can see that most of the label counts for each dataset are close to the median, with very few outliers:
+We can see that most of the label counts for each dataset are close to the median, with very few outliers (the interquartile ranges are small compared to the mean:
+
+
 ![file](dist.png)
 
 
@@ -67,7 +73,7 @@ We can see that most of the label counts for each dataset are close to the media
 
 
 ## Metrics <a name="metrics"></a>
-Accuracy was used as the final metric to gauge model performance because the representation of various dog breeds in the validation set 
+Accuracy was used as the final metric to gauge model performance because the sufficient representation of various dog breeds in the validation and train sets.
 Below are are other training data metrics found during training.  
 #### CNN Architecture
 ![file](cnn.png)
